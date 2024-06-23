@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #506175;
+    padding: 10px 20px 0px;
+}
+.menu h2{
+    text-align: center;
+    color: whitesmoke;
+    
+    
+}
+.menu ul, a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: left;
+    
+
+}
+.header {
+    background-image: url(/img/medical-people-collection-collage.jpg);
+    background-position: left;
+    background-size: cover;
+    min-height: 150px;
+}
+.content {
+    
+    
+    background-color: #ecf3f1;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+    
+
+
+.footer {
+    background-color:#76bfac;
+    min-height: 150px;
+    
+}
+.contacts{
+   color:white;
+   font-size: 40px;
+   font-family: sans-serif;
+}
+
+.footer p{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
